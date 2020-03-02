@@ -15,24 +15,24 @@
         $ans = "";
     
         switch ($submit) {
-            case 'Add': 
-                $ans = $num1 + $num2;
-                break;
-            case 'Substract':
-                $ans = $num1 - $num2;
-                break;
-            case 'Multiply':
-                $ans = $num1 * $num2;
-                break;
-            case 'Divide':
-                $ans = $num1 / $num2;
-                break;
-            case 'Modulo':
-                $ans = $num1 % $num2;
-                break;
-            default:
-                $ans = "Error";
-                break;
+        case 'Add': 
+            $ans = $num1 + $num2;
+            break;
+        case 'Substract':
+            $ans = $num1 - $num2;
+            break;
+        case 'Multiply':
+            $ans = $num1 * $num2;
+            break;
+        case 'Divide':
+            $ans = $num1 / $num2;
+            break;
+        case 'Modulo':
+            $ans = $num1 % $num2;
+            break;
+        default:
+            $ans = "Error";
+            break;
         }
     }
     ?>
